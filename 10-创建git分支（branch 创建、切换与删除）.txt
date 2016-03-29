@@ -1,0 +1,39 @@
+#git 中的branch 就是一个文本
+
+#其命令基本格式为： git branch <分支名称>
+
+#查看 当前自己在哪个 git 分支上 的命令
+git branch
+#比如：
+*master   # “星号”代表自己当前所在的分支的名称
+tryidea	#分支之一，但目前不在这个分支上
+
+#切换分支
+git checkout tryidea
+提示：switched to branch 'tryidea'  #表示切换成功
+git branch
+master
+*tryidea    #已经切换过去了
+
+#删除 分支
+git branch -d tryidea
+
+#创建分支 并 直接切换至 新建的分支
+git checkout -b tryidea
+
+#合并分支的命令
+git merge tryidea
+
+###  注： 如果在分支中有了新的commit ，但并没有git push，那么这个分支是不允许删除的，除非将这个分支合并到master中，再进行删除。
+ 
+
+
+
+
+
+
+
+
+
+
+

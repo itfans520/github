@@ -1,0 +1,14 @@
+#从history中将文件取出来，覆盖掉需要撤销staying area 中的文件
+git reset files.txt
+
+
+#从staying area 中将文件取出来，覆盖掉working dirctory中的文件
+git checkout files.txt
+
+#从history中将文件取出来，直接覆盖working dirctory中的文件
+git checkout HEAD files.txt
+
+#将文件从working dirctory 直接提交到history的方法
+git commit -a -m 'message'
+or
+git commit -am  'message'

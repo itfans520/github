@@ -1,0 +1,6 @@
+#git repo 初始化
+git init
+
+#通过clone命令下载github中的repo
+git clone https://github.com/xxxxxxx
+

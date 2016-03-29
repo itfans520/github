@@ -1,0 +1,15 @@
+# 查看repo状态
+git status
+
+#working directory clean 标识与staying area是一样的状态，没有区别
+
+
+#对文件进行一次修改，通过git status查看文件状态，文件已经变为“Untracked files”状态；
+#
+
+
+
+#显示简洁的状态信息
+git status -m
+
+MM : 第一个M位 代表 staying area ， 第2个M位，代表working dirctory

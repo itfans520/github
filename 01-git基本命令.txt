@@ -1,0 +1,18 @@
+#创建待提交的用户
+git config --global user.name lizhen
+
+#创建待提交用户的邮件
+git config --gloabl user.email lizhen@yintai.com
+
+#配置全局颜色
+git config --global color.ui ture
+
+#查看配置情况
+git config --list
+
+user.name=lizhen
+user.email=lizhen@yintai.com
+color.ui=true
+
+#修改git的个人配置参数
+vi ~/.gitconfig

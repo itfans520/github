@@ -1,0 +1,16 @@
+#查看文件差别
+git diff
+
+- ：为删掉的内容
++ ：为增加的内容
+
+#查看最近一次提交的差异
+git diff HEAD
+
+#查看文件差异的状态
+git diff -stat
+
+#查看文件提交前和提交后是否有差异
+
+git diff -staged
+

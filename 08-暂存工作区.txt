@@ -1,0 +1,12 @@
+#将本次working dirctory中的变更内容放到“暂存工作区”
+git stash
+
+#提交一次（相当于紧急修复）
+
+#查看“最近一次放入‘暂存工作区’”的内容
+git stash list
+
+#从“暂存工作区”进行恢复
+git stash pop
+
+相应文件恢复到执行 git stash 之前的状态

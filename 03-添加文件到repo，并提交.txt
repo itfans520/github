@@ -1,0 +1,19 @@
+#查看git repo的状态
+git status
+
+#将文件添加到repo
+git add files.txt
+
+#如果文件时红色的，证明还没有加入到repo中，绿色的，就证明添加到repo中了
+
+#提交repo
+git commit -m '这里是message，也就是本次提交的说明，便于今后辨识这次提交的意义'
+# -m 参数是为了后面加注释的信息，否则提交时会打开一个vi编辑器，需要在vi编辑器中书写信息
+
+#git中分为3个区域
+working directory ： 工作区域，用于文件的编辑，此时并未将这个文件添加到repo中。当我们将这个文件通过git add 添加到repo中后，它就会被提升到staying area；
+
+staying area：逗留区域，已经添加到repo中，但未提交的文件，都在这个区域存放（逻辑上的）；这个区域也常常被称作cache区域 或者 index区域；
+
+history 区域：文件已经被repo提交后的区域。
+
